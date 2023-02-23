@@ -75,4 +75,6 @@ ADD gold_rewards_member  VARCHAR(4);
 ALTER TABLE Movies
 DROP KEY number_of_tickets_sold;  
 
+ALTER TABLE concessions 
+ADD cost  MONEY;
 

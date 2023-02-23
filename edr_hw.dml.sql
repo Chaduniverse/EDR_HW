@@ -71,6 +71,24 @@ INSERT INTO Movies (
     number_of_tickets_sold
 ) VALUES (
     'Black Panther: Wakanda Forever',
-    'Theater 12', 
+    'Theater 12',
     120
+);  
+
+INSERT INTO concessions (
+    product, 
+    cost,
+    quantity_sold,
+    amount_paid
+) VALUES (
+    'Popcorn',
+    10.99,
+    2,
+    22.97
+),(
+    'Soda',
+    6.99,
+    2,
+    13.57
+
 );
